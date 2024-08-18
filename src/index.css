@@ -1,0 +1,22 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .container {
+        @apply mx-auto px-[30px]
+    }
+    .bg_primary {
+        @apply bg-[#11235A]
+    }
+}
+*{
+    user-select: none;
+    /* background-color: #3d3b4075; */
+}
+
+
+
+
+
